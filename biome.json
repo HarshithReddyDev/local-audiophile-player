@@ -1,0 +1,41 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.5.13/schema.json",
+	"files": {
+		"includes": [
+			"src/**/*",
+			"e2e/**/*",
+			"scripts/**/*",
+			"vite.config.ts",
+			"vitest.config.ts",
+			"playwright.config.ts",
+			"index.html",
+			"package.json",
+			"tsconfig.json",
+			"biome.json",
+			"!.opencode",
+			"!opencode.json",
+			"!docs",
+			"!public",
+			"!dist"
+		]
+	},
+	"formatter": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": false
+	},
+	"assist": {
+		"enabled": true,
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
+	},
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
+		}
+	}
+}

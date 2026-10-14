@@ -1,0 +1,243 @@
+{
+  "cases": {
+    "01-flat": {
+      "bands": 0,
+      "finalMaxAbsDb": 0,
+      "finalRmsDb": 0,
+      "flags": [],
+      "maxGainAbsDb": 0,
+      "maxQ": 0,
+      "preampDb": 0
+    },
+    "02-bass-deficient": {
+      "bands": 3,
+      "finalMaxAbsDb": 0.1095,
+      "finalRmsDb": 0.0406,
+      "flags": [],
+      "maxGainAbsDb": 6.0846,
+      "maxQ": 0.7,
+      "preampDb": -6.1
+    },
+    "03-bass-boosted": {
+      "bands": 2,
+      "finalMaxAbsDb": 1.6249,
+      "finalRmsDb": 0.4291,
+      "flags": [],
+      "maxGainAbsDb": 8.422,
+      "maxQ": 0.7,
+      "preampDb": 0
+    },
+    "04-broad-bass-shelf": {
+      "bands": 1,
+      "finalMaxAbsDb": 0.0075,
+      "finalRmsDb": 0.0023,
+      "flags": [],
+      "maxGainAbsDb": 4.9733,
+      "maxQ": 0.7,
+      "preampDb": 0
+    },
+    "05-mid-dip": {
+      "bands": 1,
+      "finalMaxAbsDb": 0.108,
+      "finalRmsDb": 0.0311,
+      "flags": [],
+      "maxGainAbsDb": 4.0717,
+      "maxQ": 0.81,
+      "preampDb": -4.1
+    },
+    "06-mid-elevation": {
+      "bands": 1,
+      "finalMaxAbsDb": 0.0697,
+      "finalRmsDb": 0.0271,
+      "flags": [],
+      "maxGainAbsDb": 3.9519,
+      "maxQ": 0.9,
+      "preampDb": 0
+    },
+    "07-narrow-3k-peak": {
+      "bands": 3,
+      "finalMaxAbsDb": 0.1925,
+      "finalRmsDb": 0.0186,
+      "flags": [
+        "high-q",
+        "overlapping"
+      ],
+      "maxGainAbsDb": 6.8185,
+      "maxQ": 5.1,
+      "preampDb": 0
+    },
+    "08-narrow-3k-dip": {
+      "bands": 2,
+      "finalMaxAbsDb": 0.1753,
+      "finalRmsDb": 0.0226,
+      "flags": [
+        "high-q",
+        "narrow-hot",
+        "overlapping"
+      ],
+      "maxGainAbsDb": 7.9405,
+      "maxQ": 5.57,
+      "preampDb": -7.9
+    },
+    "09-peak-6k": {
+      "bands": 2,
+      "finalMaxAbsDb": 0.3328,
+      "finalRmsDb": 0.05,
+      "flags": [
+        "overlapping"
+      ],
+      "maxGainAbsDb": 5.8944,
+      "maxQ": 3.41,
+      "preampDb": 0
+    },
+    "10-treble-irregular": {
+      "bands": 2,
+      "finalMaxAbsDb": 3.4948,
+      "finalRmsDb": 0.5265,
+      "flags": [
+        "high-q",
+        "large-residual",
+        "narrow-hot",
+        "overlapping"
+      ],
+      "maxGainAbsDb": 4.7026,
+      "maxQ": 5.98,
+      "preampDb": 0
+    },
+    "11-multi-treble": {
+      "bands": 3,
+      "finalMaxAbsDb": 2.0651,
+      "finalRmsDb": 0.3981,
+      "flags": [],
+      "maxGainAbsDb": 4.8558,
+      "maxQ": 3.45,
+      "preampDb": 0
+    },
+    "12-downward-slope": {
+      "bands": 5,
+      "finalMaxAbsDb": 3.7766,
+      "finalRmsDb": 0.688,
+      "flags": [
+        "high-q",
+        "large-residual"
+      ],
+      "maxGainAbsDb": 4.4463,
+      "maxQ": 5.98,
+      "preampDb": -3.9
+    },
+    "13-highly-uneven": {
+      "bands": 5,
+      "finalMaxAbsDb": 3.7885,
+      "finalRmsDb": 0.8948,
+      "flags": [
+        "high-q",
+        "large-residual",
+        "overlapping"
+      ],
+      "maxGainAbsDb": 4.8907,
+      "maxQ": 5.98,
+      "preampDb": -4.5
+    },
+    "14-multi-broad": {
+      "bands": 5,
+      "finalMaxAbsDb": 0.6325,
+      "finalRmsDb": 0.1801,
+      "flags": [],
+      "maxGainAbsDb": 4.0594,
+      "maxQ": 1.02,
+      "preampDb": -2.9
+    },
+    "15-multi-narrow": {
+      "bands": 4,
+      "finalMaxAbsDb": 3.7304,
+      "finalRmsDb": 0.5016,
+      "flags": [
+        "high-q",
+        "large-residual",
+        "overlapping"
+      ],
+      "maxGainAbsDb": 4.8056,
+      "maxQ": 5.98,
+      "preampDb": -4.3
+    },
+    "16-combined": {
+      "bands": 6,
+      "finalMaxAbsDb": 1.6091,
+      "finalRmsDb": 0.2744,
+      "flags": [],
+      "maxGainAbsDb": 7.472,
+      "maxQ": 1.28,
+      "preampDb": -2.9
+    },
+    "17-sparse": {
+      "bands": 4,
+      "finalMaxAbsDb": 0.9442,
+      "finalRmsDb": 0.2904,
+      "flags": [
+        "high-q"
+      ],
+      "maxGainAbsDb": 3.8524,
+      "maxQ": 5.88,
+      "preampDb": -3.6
+    },
+    "18-noisy": {
+      "bands": 7,
+      "finalMaxAbsDb": 1.8487,
+      "finalRmsDb": 0.6416,
+      "flags": [
+        "high-q",
+        "overlapping",
+        "rippled-residual"
+      ],
+      "maxGainAbsDb": 3.2537,
+      "maxQ": 5.98,
+      "preampDb": -0.6
+    },
+    "19-truncated-hf": {
+      "bands": 1,
+      "finalMaxAbsDb": 0.1173,
+      "finalRmsDb": 0.0283,
+      "flags": [],
+      "maxGainAbsDb": 4.973,
+      "maxQ": 1.98,
+      "preampDb": 0
+    },
+    "20-truncated-lf": {
+      "bands": 2,
+      "finalMaxAbsDb": 4.1178,
+      "finalRmsDb": 1.0431,
+      "flags": [
+        "large-residual"
+      ],
+      "maxGainAbsDb": 5.1568,
+      "maxQ": 1.4,
+      "preampDb": 0
+    },
+    "21-extreme-plausible": {
+      "bands": 7,
+      "finalMaxAbsDb": 7.9524,
+      "finalRmsDb": 1.9267,
+      "flags": [
+        "large-residual",
+        "overlapping"
+      ],
+      "maxGainAbsDb": 12.1017,
+      "maxQ": 4.53,
+      "preampDb": -10
+    },
+    "22-tilt-target": {
+      "bands": 8,
+      "finalMaxAbsDb": 0.2881,
+      "finalRmsDb": 0.0964,
+      "flags": [
+        "many-bands",
+        "overlapping"
+      ],
+      "maxGainAbsDb": 6.236,
+      "maxQ": 1.85,
+      "preampDb": -6.2
+    }
+  },
+  "corpusVersion": 1,
+  "optimizerVersion": 1
+}

@@ -1,0 +1,19 @@
+{
+	"source": "OPRA",
+	"sourceUrl": "https://github.com/opra-project/OPRA",
+	"revision": "0b88ecd4e2bef7cf69fd5b50f1d06fb586c10865",
+	"revisionDate": "2026-07-01",
+	"fetchedAt": "2026-09-14",
+	"snapshotFile": "database_v1.jsonl",
+	"snapshotBytes": 12636756,
+	"snapshotSha256": "5c4cf9e2f71c696bf4fc5b4d1a46c57f31c6d0041552c2146fcd1413596fd210",
+	"licenseId": "CC BY-SA 4.0",
+	"licenseEvidence": "LICENSE.md headed 'Dataset:' + README licensing FAQ, re-verified 2026-09-14",
+	"recordCounts": {
+		"vendors": 714,
+		"products": 6230,
+		"eq": 12594,
+		"lines": 19538
+	},
+	"consumption": "Single research-scale fetch of the documented consumer dump (CONSUMING.md). No runtime requests; production reads only this frozen file."
+}

@@ -1,0 +1,69 @@
+{
+	"devices": [
+		{
+			"manufacturer": "Example Audio",
+			"model": "Reference One",
+			"aliases": ["Ref 1"],
+			"deviceType": "headphones-open",
+			"driver": { "configuration": "Dynamic driver", "connectivity": "wired" },
+			"provenance": {
+				"source": "Example Audio official specs",
+				"sourceType": "manufacturer",
+				"sourceUrl": "https://example.com",
+				"attribution": "Example ingestion fixture (not shipped)",
+				"license": "Factual metadata; fixture only.",
+				"redistribution": "metadata-only"
+			},
+			"releaseYear": 2024,
+			"notes": null
+		},
+		{
+			"id": "example-audio-reference-one-le",
+			"manufacturer": "Example Audio",
+			"model": "Reference One",
+			"aliases": ["Ref One LE"],
+			"deviceType": "headphones-open",
+			"driver": {},
+			"provenance": {
+				"source": "Example Audio official specs",
+				"sourceType": "manufacturer",
+				"sourceUrl": "https://example.com",
+				"attribution": "Example ingestion fixture (not shipped)",
+				"license": "Factual metadata; fixture only.",
+				"redistribution": "metadata-only"
+			}
+		},
+		{
+			"manufacturer": "",
+			"model": "Nameless Wonder",
+			"provenance": {
+				"source": "Example Audio official specs",
+				"sourceType": "manufacturer",
+				"sourceUrl": "https://example.com",
+				"attribution": "Example ingestion fixture (not shipped)",
+				"license": "Factual metadata; fixture only.",
+				"redistribution": "metadata-only"
+			}
+		}
+	],
+	"presets": [
+		{
+			"id": "example-ref-one-factory",
+			"name": "Example factory preset",
+			"deviceId": "example-audio-reference-one",
+			"origin": "manufacturer",
+			"peq": { "version": 1, "preamp": -1, "enabled": true, "bands": [] },
+			"measurementRef": "Factory whitepaper curve",
+			"targetRef": null,
+			"provenance": {
+				"source": "Example Audio official specs",
+				"sourceType": "manufacturer",
+				"sourceUrl": "https://example.com",
+				"attribution": "Example ingestion fixture (not shipped)",
+				"license": "Fixture only; pretend grant for gate testing.",
+				"redistribution": "full"
+			},
+			"createdAt": 0
+		}
+	]
+}

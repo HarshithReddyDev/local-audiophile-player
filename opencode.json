@@ -1,0 +1,47 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/muse-spark-1.3-contributor-free",
+  "small_model": "opencode/muse-spark-1.3-contributor-free",
+  "default_agent": "build",
+  "subagent_depth": 1,
+  "autoupdate": false,
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true,
+      "timeout": 15000
+    },
+    "playwright": {
+      "type": "local",
+      "command": ["bunx", "@playwright/mcp@0.0.80"],
+      "enabled": true,
+      "timeout": 15000
+    }
+  },
+  "lsp": true,
+  "formatter": {
+    "biome": {}
+  },
+  "permission": {
+    "playwright_*": "deny",
+    "external_directory": "ask"
+  },
+  "agent": {
+    "qa-engineer": {
+      "permission": {
+        "playwright_*": "allow"
+      }
+    },
+    "browser-compat-engineer": {
+      "permission": {
+        "playwright_*": "allow"
+      }
+    },
+    "frontend-engineer": {
+      "permission": {
+        "playwright_*": "allow"
+      }
+    }
+  }
+}
