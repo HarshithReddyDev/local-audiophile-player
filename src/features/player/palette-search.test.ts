@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { searchPalette, type PaletteCorpus } from "./palette-search";
+import { type PaletteCorpus, searchPalette } from "./palette-search";
 
 function corpus(): PaletteCorpus {
 	return {

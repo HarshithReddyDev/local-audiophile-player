@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { formatDb, summarizeDsp, type DspSummaryInput } from "./dsp-summary";
+import { type DspSummaryInput, formatDb, summarizeDsp } from "./dsp-summary";
 
 function base(): DspSummaryInput {
 	return {

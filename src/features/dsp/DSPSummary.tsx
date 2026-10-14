@@ -1,9 +1,9 @@
-import { summarizeDsp } from "./dsp-summary";
 import { useDspStore } from "../../state/dsp-store";
 import { useEQStore } from "../../state/eq-store";
 import { useLibraryStore } from "../../state/library-store";
 import { usePlayerStore } from "../../state/player-store";
 import { effectivePreampDb } from "../player/use-playback";
+import { summarizeDsp } from "./dsp-summary";
 
 /**
  * Compact active-configuration summary: EQ state plus only the

@@ -1,7 +1,7 @@
 import type { CompressorParams } from "../../dsp/dynamics";
-import type { EqMode } from "../../dsp/snapshot";
 import type { LoudnessParams } from "../../dsp/loudness";
 import type { ReverbParams } from "../../dsp/reverb";
+import type { EqMode } from "../../dsp/snapshot";
 import type { SpatialParams } from "../../dsp/spatial";
 import type { BassTone, BassTuner, TrebleTone } from "../../dsp/tone";
 import type { LimiterState } from "../../state/dsp-store";

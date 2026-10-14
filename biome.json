@@ -16,7 +16,10 @@
 			"!opencode.json",
 			"!docs",
 			"!public",
-			"!dist"
+			"!dist",
+			"!src/catalog/generated.ts",
+			"!scripts/catalog/opra-snapshot",
+			"!**/node_modules"
 		]
 	},
 	"formatter": {
